@@ -1,0 +1,30 @@
+ 
+    <div class = 'table-responsive'>
+        <table class ='table' *ngIf='deliverymessages && deliverymessages.length'>
+            <thead>
+                <tr>
+                    <th> Receiver</th>
+                    <th> Sender</th>
+                    <th> Message </th>
+                    <th> DocNumber</th>
+                    <th> DocControl </th>
+                    <th> Date </th>
+                    <th> Date </th>
+                    <th> MessageName </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let deliverymessage of deliverymessages'>
+                    <td>{{ deliverymessage.Receiver }}</td>
+                    <td>{{ deliverymessage.Sender }}</td>
+                    <td>{{ deliverymessage.Message }}</td>
+                    <td>{{ deliverymessage.DocNumber }}</td>
+                    <td>{{ deliverymessage.DocControl }}</td>
+                    <td>{{ deliverymessage.Date }}</td>
+                    <td>{{ deliverymessage.Date }}</td>
+                    <td>{{ deliverymessage.MessageName }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  

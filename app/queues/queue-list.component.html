@@ -1,0 +1,24 @@
+
+    <div class = 'table-responsive'>
+        <table class ='table' *ngIf='queuemessages && queuemessages.length'>
+            <thead>
+                <tr>
+                    <th> Label</th>
+                    <th> Last Retry Date</th>
+                    <th> Original Arrival Date </th>
+                    <th> Size </th>
+                    <th> Identifier </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let queuemessage of queuemessages'>
+                    <td>{{ queuemessage.Label }}</td>
+                    <td>{{ queuemessage.LastRetryDate }}</td>
+                    <td>{{ queuemessage.OriginalArrivalDate }}</td>
+                    <td>{{ queuemessage.Size }}</td>
+                    <td>{{ queuemessage.Identifier }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+

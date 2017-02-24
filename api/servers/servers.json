@@ -1,0 +1,38 @@
+[
+    { 
+        "ServerName": "ITXDemo01",
+        "Instances": [
+        { "InstanceNo": "1", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "2", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "3", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "4", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] }
+        ]
+    },
+    {
+         "ServerName": "ITXDemo02",
+       "Instances": [
+        { "InstanceNo": "1", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "2", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "3", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "4", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] }
+        ]
+    },
+     {
+         "ServerName": "ITXDemo03",
+         "Instances": [
+        { "InstanceNo": "1", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "2", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "3", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "4", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] }
+        ]
+    },
+     {
+         "ServerName": "ITXDemo04",
+       "Instances": [
+        { "InstanceNo": "1", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "2", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "3", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] },
+        { "InstanceNo": "4", "Queues" : [{"QueueName":"Inbound"},{"QueueName":"Outbound"}, {"QueueName":"Inbound"}, {"QueueName":"Fa"}, {"QueueName":"Inbound_Suspended"},{"QueueName":"Outbound_Suspended"}] }
+        ]
+    }
+]

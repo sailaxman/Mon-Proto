@@ -1,0 +1,57 @@
+[
+    { 
+        "MessageId": "1",
+        "Sender": "TestSender001",
+        "Receiver": "TestReceiver001",
+        "Message": "TestMessage001",
+        "DocNumber": "TestDocNumber001",
+        "DocControl": "TestDocControl001",
+        "Date": "21 july 2016",
+        "OriginalName": "TestName001",
+        "MessageName": "TestMsgName001"  
+    },
+   { 
+        "MessageId": "2",
+        "Sender": "TestSender002",
+        "Receiver": "TestReceiver002",
+        "Message": "TestMessage002",
+        "DocNumber": "TestDocNumber002",
+        "DocControl": "TestDocControl002",
+        "Date": "21 july 2016",
+        "OriginalName": "TestName002",
+        "MessageName": "TestMsgName002"  
+    },
+    { 
+        "MessageId": "3",
+        "Sender": "TestSender003",
+        "Receiver": "TestReceiver003",
+        "Message": "TestMessage003",
+        "DocNumber": "TestDocNumber003",
+        "DocControl": "TestDocControl003",
+        "Date": "21 july 2016",
+        "OriginalName": "TestName003",
+        "MessageName": "TestMsgName003"  
+    },
+    { 
+        "MessageId": "4",
+        "Sender": "TestSender004",
+        "Receiver": "TestReceiver004",
+        "Message": "TestMessage004",
+        "DocNumber": "TestDocNumber004",
+        "DocControl": "TestDocControl004",
+        "Date": "21 july 2016",
+        "OriginalName": "TestName004",
+        "MessageName": "TestMsgName004"  
+    },
+   { 
+        "MessageId": "5",
+        "Sender": "TestSender005",
+        "Receiver": "TestReceiver005",
+        "Message": "TestMessage005",
+        "DocNumber": "TestDocNumber005",
+        "DocControl": "TestDocControl005",
+        "Date": "21 july 2016",
+        "OriginalName": "TestName005",
+        "MessageName": "TestMsgName005"  
+    }
+]

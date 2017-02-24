@@ -1,0 +1,39 @@
+﻿<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-default">    
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="">
+        </a>     
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Settings</a></li> 
+            <li><a href="#">Administration</a></li>
+          </ul>
+        </div>
+      </nav>      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-1">
+    <div class="navbar navbar-inverse navbar-fixed-left">
+      <ul>
+     <li *ngFor="let server of servers"><a [routerLinkActive]="['grid-tile-active']" [routerLinkActiveOptions]="{ exact: false }" class="navbar-brand"         
+        [routerLink]="['/server', server.ServerName]">      
+      <div class="itembox">
+      <i class="material-icons">important_devices</i>
+      <div class="caption">{{server.ServerName}}</div>
+      </div>
+      </a></li></ul>
+    </div>
+    </div>
+     <div class="col-md-11">
+      <div class="row">   
+       <router-outlet></router-outlet>
+      </div>  
+     </div>  
+  </div>    
+</div>
