@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-default">    
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <a class="navbar-brand" [routerLink]="['./home']">
+          <img alt="Brand" src="assets\icon\logo.png" height="50" width="200">
+        </a>     
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href [routerLink]=" ['./home'] ">Home</a></li>
+            <li><a href [routerLink]=" ['./login'] ">Login</a></li>  
+            <li><a href [routerLink]=" ['./servers'] ">ServersList</a></li>
+          </ul>
+        </div>
+      </nav>      
+    </div>
+  </div>
+  <div class="row">
+  <router-outlet></router-outlet>   
+  </div>    
+</div>

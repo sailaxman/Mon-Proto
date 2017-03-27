@@ -1,0 +1,39 @@
+a.menu-active {
+    color: #fff !important;
+    background-color: transparent !important;
+} 
+.top-buffer { margin-top:20px; }
+
+.navbar-fixed-left {
+  width: 100px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  background: #00AAE5;
+  vertical-align: middle; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.fa.fa-server {
+    font-size: 30px;
+}
+.itemBox {
+    cursor: pointer;
+    transition: transform 150ms ease-out;
+     position: relative;
+     bottom: 13px; 
+     
+}
+.caption {
+    color: #757575;
+    font-size: 11px;
+    position: relative;
+      
+}
+a.menu-active .caption {
+    color: #fff !important;
+    background-color: transparent !important;
+}
